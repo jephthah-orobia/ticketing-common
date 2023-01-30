@@ -1,0 +1,22 @@
+{
+  "name": "@sirjhep/ticketing-common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "del ./dist/*",
+    "build": "npm run clean && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "del-cli": "^5.0.0",
+    "tsc": "^2.0.4",
+    "typescript": "^4.9.4"
+  }
+}
