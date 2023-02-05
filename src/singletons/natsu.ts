@@ -22,6 +22,4 @@ class Natsu {
   }
 }
 
-const natsu = new Natsu();
-
-export default { natsu };
+export const natsu = new Natsu();
