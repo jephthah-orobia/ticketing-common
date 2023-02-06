@@ -1,5 +1,5 @@
 import { Message, Stan } from 'node-nats-streaming';
-import { Subjects } from './subjects';
+import { Subjects } from '../enums/subjects';
 import { Event } from './event';
 
 export abstract class Listener<T extends Event> {
