@@ -1,7 +1,7 @@
 import { SerializableError } from './serializable-error';
 
 export class DatabaseValidationError extends SerializableError {
-  statusCode: number = 400;
+  statusCode: number = 500;
   reason = 'Error connecting to database';
 
   constructor() {

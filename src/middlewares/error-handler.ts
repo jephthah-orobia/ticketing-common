@@ -10,9 +10,11 @@ export const errorHandler = (
   if (err instanceof SerializableError)
     return res.status(err.statusCode).send(err.serializeErrors());
 
-  console.log(err);
+  console.error(err);
 
-  res.status(400).send({
-    message: 'Bad Request',
-  });
+  res.status(400).send([
+    {
+      message: 'Bad Request',
+    },
+  ]);
 };
