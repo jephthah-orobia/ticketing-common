@@ -19,6 +19,7 @@ export * from './events/ticket-updated-event';
 export * from './events/order-created-event';
 export * from './events/order-cancelled-event';
 export * from './events/order-updated-event';
+export * from './events/expiration-complete-event';
 
 export * from './enums/subjects';
 export * from './enums/order-status';
