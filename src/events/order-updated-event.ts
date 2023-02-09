@@ -5,10 +5,10 @@ export interface OrderUpdatedEvent {
   subject: Subjects.TicketUpdated;
   data: {
     id: string;
-    status: OrderStatus;
-    userId: string;
-    expiresAt: string;
-    ticket: {
+    status?: OrderStatus;
+    userId?: string;
+    expiresAt?: string;
+    ticket?: {
       id: string;
       price: number;
     };
