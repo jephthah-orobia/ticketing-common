@@ -10,7 +10,6 @@ export interface OrderUpdatedEvent {
     expiresAt?: string;
     ticket?: {
       id: string;
-      price: number;
       __v: number;
     };
     __v: number;
