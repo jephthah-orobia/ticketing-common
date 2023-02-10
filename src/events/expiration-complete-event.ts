@@ -5,5 +5,6 @@ export interface ExpirationCompleteEvent {
   subject: Subjects.ExpirationComplete;
   data: {
     id: string;
+    __v: number;
   };
 }
